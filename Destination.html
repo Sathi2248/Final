@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <script>
+        dataLayer = [{ 'pageType': 'Homepage' }];
+    </script>
+    <title> Destinations</title>
+
+    <meta http-equiv="Content-Type" content="">
+    <meta http-equiv="encoding" content="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://kit.fontawesome.com/da33ef60ef.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/Destination.css">
+</head>
+
+<body>
+
+
+    <!--Transparent header-->
+
+    <header style="position: absolute; z-index: 12; width: 100%; position:fixed ; top: 0px;">
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-homepage navbar-primary" id="navbar">
+
+
+            <a class="navbar-brand" href="/">
+                <h1 class="name-logo">SeeGlobe</h1>
+                <!-- <img src="/res/images/icons/holidify-logo.svg" alt="WOW Room"> -->
+            </a>
+
+            <button class="navbar-toggler" type="button" onclick="openNav()" style="background: none; border: none;">
+                <span class="navbar-toggler-icon"><i class="fa fa-thin fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" style="margin-top: 11px;">
+                        <a class="nav-link" href="/sestiny/"> Destinations </a>
+                    </li>
+                  
+                    <li class="nav-item" style="margin-top: 11px;">
+                        <a class="nav-link" href="/sestiny/"> Explore </a>
+                    </li>
+
+                    <li class="nav-item" style="margin-top: 11px;">
+                        <a class="nav-link" href="/sestiny/">Collections </a>
+                    </li>
+                </ul>
+            </div>
+
+           <div class="translucent-background d-lg-none" style="display: none;"> </div>
+            <div id="sideNav" class="sidenav d-lg-none">
+                <a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+
+                <div class="pt-3">
+
+
+                    <span id="headerMobileLoginContainer"></span>
+
+
+                    <div class="hamburger-div">
+                        <span class="d-flex align-items-center" onclick="toggleSideNav(this)">
+
+                            <div class="icon-location-pin icon-svg mr-2 icon-size-20 drop-dw">
+                        </span>
+                    </div>
+
+                    <span onclick="toggleDropdown()" class="country-drop">
+                        <a href="">Destinations</a>
+                        <i class="fa fa-thin fa-location-dot" style="font-size: 16px;"></i>
+                    </span>
+
+                    
+
+                   
+
+                </div>
+
+            </div>
+                  
+
+            <div class="hamburger-div">
+                <a class="d-flex align-items-center" href="/packages/">
+
+
+
+
+                    <svg class="icon-svg icon-svg-packages icon-Car ">
+                        <use xlink:href="/res/images/sprite-v1/sprite-packages.svg?v=4.28#img-Car"></use>
+                    </svg>
+
+                    </span> Explore
+                </a>
+            </div>
+
+         
+
+            <div class="hamburger-div">
+                <a class="d-flex align-items-center" href="/collections/">
+
+
+
+
+                    <svg class="icon-svg icon-svg-packages icon-Sightseeing ">
+                        <use xlink:href="/res/images/sprite-v1/sprite-packages.svg?v=4.28#img-Sightseeing"></use>
+                    </svg>
+
+                    </span> Collections
+                </a>
+            </div>
+
+
+            <div class="sidenav-footer">
+
+                <br>
+                <hr>
+                <p> &copy;Travels Pvt Ltd.- All Right Reserved </p>
+            </div>
+
+            </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+
+  <!-- content -->
+
+  <!-- Navbar End -->
+
+
+
+  <div class="ww-content">
+   <div class="name-container"><h4>Content goes bellow</h4></div>
+   
+    <div class="ww-row">
+     
+      <!-- Blog entries -->
+      <div class="ww-col l8 s12">
+        <!-- Blog entry -->
+
+        <div class="ww-card-4 ww-margin ww-white">
+          <h3><a href=""><b>1. Title</b></a></h3>
+          <a href=""> <img src="images/thailand/anh-tuan-to-r2AtwFG2KXU-unsplash.jpg" alt="Nature" style="width:100%"
+              height="450px"> </a>
+          <div class="ww-container">
+
+            <h5> Best Tme to Visit : <span class="ww-opacity">April-November</span></h5>
+          </div>
+
+          <div class="ww-container">
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
+              euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+              ultricies mi non congue ullam corper. Praesent tincidunt sed
+              tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+              diam non fringilla.</p>
+            <div class="ww-row">
+              <div class="ww-col m8 s12">
+                <p><button class="ww-button ww-padding-large ww-white ww-border"><b>READ MORE
+                      »</b></button></p>
+              </div>
+              <div class="ww-col m4 ww-hide-small">
+                <!-- <p><span class="ww-padding-large ww-right"><b>Comments  </b> <span class="ww-tag">0</span></span></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="ww-card-4 ww-margin ww-white">
+            <h3><a href=""><b>1. Title</b></a></h3>
+            <a href=""> <img src="images/thailand/anh-tuan-to-r2AtwFG2KXU-unsplash.jpg" alt="Nature" style="width:100%"
+                height="450px"> </a>
+            <div class="ww-container">
+  
+              <h5> Best Tme to Visit : <span class="ww-opacity">April-November</span></h5>
+            </div>
+  
+            <div class="ww-container">
+              <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
+                euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                ultricies mi non congue ullam corper. Praesent tincidunt sed
+                tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+                diam non fringilla.</p>
+              <div class="ww-row">
+                <div class="ww-col m8 s12">
+                  <p><button class="ww-button ww-padding-large ww-white ww-border"><b>READ MORE
+                        »</b></button></p>
+                </div>
+                <div class="ww-col m4 ww-hide-small">
+                  <!-- <p><span class="ww-padding-large ww-right"><b>Comments  </b> <span class="ww-tag">0</span></span></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+      
+
+ 
+
+
+      
+        
+        <!-- END BLOG ENTRIES -->
+      </div>
+
+      <!-- Introduction menu -->
+      <div class="ww-col l4">
+        <!-- About Card -->
+        <div class="ww-card ww-margin ww-margin-top">
+          <a href=""><img src="images/france/luca-dugaro-pI3BqLz-rzY-unsplash.jpg" style="width:100%"></a>
+          <div class="ww-container ww-white">
+            <h4><a href="#"><b>France</b></a></h4>
+            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+              interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Posts -->
+        <div class="ww-card ww-margin">
+            <div class="ww-container ww-padding">
+              <h4 class="card-name">Nearest Places</h4>
+            </div>
+            <ul class="post-card-container" style="margin-left: 20px;">
+
+              <li class="post-card">
+                <a href="post1.html" class="post-link">
+                  <div class="post-card-content">
+                    <img src="images/Dubai/pexels-abdulwahab-alawadhi-10719458 - Copy.jpg" alt="Post Image" />
+                    <div class="post-content">
+                      <h4>Title 1</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="post-card">
+                <a href="post1.html" class="post-link">
+                  <div class="post-card-content">
+                    <img src="images/Dubai/pexels-abdulwahab-alawadhi-10719458 - Copy.jpg" alt="Post Image" />
+                    <div class="post-content">
+                      <h4>Title 1</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="post-card">
+                <a href="post1.html" class="post-link">
+                  <div class="post-card-content">
+                    <img src="images/Dubai/pexels-abdulwahab-alawadhi-10719458 - Copy.jpg" alt="Post Image" />
+                    <div class="post-content">
+                      <h4>Title 1</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="post-card">
+                <a href="post1.html" class="post-link">
+                  <div class="post-card-content">
+                    <img src="images/Dubai/pexels-abdulwahab-alawadhi-10719458 - Copy.jpg" alt="Post Image" />
+                    <div class="post-content">
+                      <h4>Title 1</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="post-card">
+                <a href="post1.html" class="post-link">
+                  <div class="post-card-content">
+                    <img src="images/Dubai/pexels-abdulwahab-alawadhi-10719458 - Copy.jpg" alt="Post Image" />
+                    <div class="post-content">
+                      <h4>Title 1</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- Add more post cards as needed -->
+            </ul>
+            
+          </div>
+          
+        <hr>
+
+        <!-- Labels / tags -->
+        <div class="ww-card ww-margin">
+          <div class="ww-container ww-padding">
+            <h4>Tags</h4>
+          </div>
+          <div class="ww-container ww-white">
+            <p><span class="ww-tag ww-black ww-margin-bottom"><a href="">Destination</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">New York</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">London</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">France</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Indunesia</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Thialand</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Dubai</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Spain</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Tokyo</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Sydney</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Saudi </a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Singapore</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Amsterdam</a></span>
+              <span class="ww-tag ww-light-grey ww-small ww-margin-bottom"><a href="">Cancun</a></span>
+
+            </p>
+          </div>
+        </div>
+
+        <!-- END Introduction Menu -->
+      </div>
+
+      <!-- END GRID -->
+    </div><br>
+
+    <!-- END ww-content -->
+  </div>
+
+
+
+    <!-- Generic footer -->
+    <footer class="hf-footer">
+        <div class="container con">
+            <div class="row" id="ro">
+                <div class="col-12 col-md-4 col-lg-3 section">
+
+
+
+
+
+                    <!-- this is logo of image -->
+                    <img class="mb-md-3 lazy" height="" data-original="/logo" src="/res/images/patt.png" alt="">
+
+                    <p class="hidden-sm"> <b>Explore the World with SeeGlobe </b> </p>
+                </div>
+                <div class="col-12 col-md-8 pl-md-5 col-lg-3 pl-lg-0 section">
+                    <p class="w-100"> <b> Explore </b> </p>
+                    <ul class="list-unstyled">
+                        <div class="row no-gutters">
+                            <li class="col-6">
+
+
+
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/explore')">
+                                    Destinations
+                                </span>
+                            </li>
+                            <li class="col-6">
+
+
+
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/about-us')">
+                                    About Us
+                                </span>
+                            </li>
+                            <li class="col-6">
+
+
+
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/collections')">
+                                    Collections
+                                </span>
+                            </li>
+                            <li class="col-6">
+
+
+
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/write-for-us')">
+                                    Write For Us
+                                </span>
+                            </li>
+
+                            <li class="col-6">
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/privacy')">
+                                    Privacy
+                                </span>
+                            </li>
+
+                            <li class="col-6">
+
+
+
+                                <span class="clickable align-middle " onclick=";openLink('/terms-of-use')">
+                                    Terms
+                                </span>
+                            </li>
+                            <li class="col-6">
+                                <div class="input-group">
+                                    <select class="custom-select" id="currencyDropdown">
+                                        <option selected value="default">Select Country</option>
+                                        <option value="IN">INDIA</option>
+                                        <option value="US"> Dubai</option>
+                                        <option value="GB"> Srilankha</option>
+                                        <option value="AE">Thailand</option>
+                                        <option value="FR">Indunsia</option>
+                                        <option value="SG">Saudi</option>
+                                        <option value="MY"> Mayanmar</option>
+                                        <option value="TH">Rasia</option>
+                                        <option value="AU"> USA</option>
+                                    </select>
+                                    </di<v>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-6 d-md-none d-lg-block col-lg-3 section">
+                    <p> <b> Connect with us </b> </p>
+                    <p class="social">
+
+
+
+
+
+                        <!-- Facebook Link -->
+                        <span class="clickable align-middle " onclick=";openLink('http://facebook.com/holidify')">
+
+
+
+                            <svg class="icon-facebook-logo icon-svg mr-md-3 mr-2">
+                                <use xlink:href="/res/images/sprite-v2/sprite-web.svg?v=4.28#img-facebook-logo">
+                                </use>
+                            </svg>
+                        </span>
+
+
+
+
+
+
+                        <!-- Instagram Link -->
+                        <span class="clickable align-middle " onclick=";openLink('https://www.instagram.com/holidify')">
+
+
+
+
+
+                            <img class="insta-logo mr-md-3 mr-2 lazy" height=""
+                                data-original="/res/images/Instagram-Logo.png" src="/res/images/patt.png" alt="">
+                        </span>
+
+
+
+
+
+                        <!-- twitter Link -->
+
+                        <span class="clickable align-middle " onclick=";openLink('https://twitter.com/holidify')">
+
+
+
+                            <svg class="icon-twitter-logo icon-svg mr-md-3 mr-2">
+                                <use xlink:href="/res/images/sprite-v2/sprite-web.svg?v=4.28#img-twitter-logo">
+                                </use>
+                            </svg>
+                        </span>
+
+                    </p>
+
+
+                </div>
+                <!-- Play Store Link -->
+                <div class="col-6 d-md-none d-lg-block col-lg-3 section">
+                    <p> <b> Download our app </b> </p>
+                    <a
+                        onclick='openLinkInNewTab("https://play.google.com/store/apps/details?id=com.holidify.andorid.app.holidify&referrer=utm_source%3Dmobile%26utm_medium%3Dfooter%26utm_campaign%3Dfooter");trackGAEvent("AppDownloads", "GotoPlayStore", "Footer")'>
+
+
+
+
+
+                        <!-- Play store Icon -->
+                        <img class="clickable lazy" height="" data-original="/res/images/icons/PlayStoreTag.svg"
+                            src="/res/images/patt.png" alt="">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row copyright">
+                <div class="col-12 nopadding">
+                    <hr />
+                    <p> &copy;SeeGlobe Pvt Ltd.- All Right Reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal for package request -->
+
+<script>
+  
+  function openNav() {
+    document.getElementById("sideNav").style.width = "80%";
+    document.querySelector(".translucent-background").style.display = "block";
+    document.querySelector(".translucent-background").addEventListener("click", closeNav); // Add event listener to close the nav bar when translucent background is clicked
+  }
+
+  function closeNav() {
+    document.getElementById("sideNav").style.width = "0";
+    document.querySelector(".translucent-background").style.display = "none";
+    document.querySelector(".translucent-background").removeEventListener("click", closeNav); // Remove the event listener after closing the nav bar
+  }
+
+
+</script>
+   
+</body>
+
+</html>
